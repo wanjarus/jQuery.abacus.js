@@ -1,0 +1,63 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic";
+body {
+    background: #FFF;
+    color: #F1F2D8;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif
+}
+
+a {
+    color: #cc6055;
+    text-decoration: none;
+    outline: none
+}
+
+a:hover,
+a:focus {
+    color: #fff
+}
+
+.content {
+    max-width: 1290px;
+    margin: 100px auto 0;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.sg-header {
+    padding: 0 1em 3em;
+    letter-spacing: -1px
+}
+
+.sg-header h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 1;
+    color: #2185C5;
+}
+
+.sg-header h1 span {
+    display: block;
+    font-size: 40%;
+    margin-top: 1em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    opacity: .5;
+    letter-spacing: 0
+}
+
+.sg-header h2 {
+    color: #F26101
+}
+
+-color: initial
+}
+
+@media screen and (max-width: 27em) {
+    .sg-header {
+        font-size: 75%
+    }
+}
